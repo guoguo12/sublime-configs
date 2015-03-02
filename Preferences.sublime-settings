@@ -1,20 +1,20 @@
 {
-	"color_scheme": "Packages/Predawn/predawn.tmTheme",
-	"copy_with_empty_selection": false,
-	"draw_minimap_border": true,
-	"font_face": "Source Code Pro",
-	"font_size": 11,
-	"highlight_line": true,
-	"word_wrap": false,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"line_numbers": true,
-	"overlay_scroll_bars": "enabled",
-	"tab_size": 4,
-	"theme": "predawn.sublime-theme",
-	"translate_tabs_to_spaces": true,
-    "preview_on_click": false,	
+    "color_scheme": "Packages/Predawn/predawn.tmTheme",
+    "copy_with_empty_selection": false,
+    "draw_minimap_border": true,
+    "font_face": "Source Code Pro",
+    "font_size": 11,
+    "highlight_line": true,
+    "word_wrap": false,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "line_numbers": true,
+    "overlay_scroll_bars": "enabled",
+    "tab_size": 4,
+    "theme": "predawn.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "preview_on_click": false,
 }
