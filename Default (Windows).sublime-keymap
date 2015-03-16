@@ -1,13 +1,13 @@
 [
     // swap lines (like in NPP)
-	{ "keys": ["shift+alt+up"], "command": "select_lines", "args": {"forward": false} },
-	{ "keys": ["shift+alt+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["shift+alt+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["shift+alt+down"], "command": "select_lines", "args": {"forward": true} },
     // dumb tab cycles (like in NPP)
     { "keys": ["ctrl+tab"], "command": "next_view" },
     { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
     // delete line
     { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
     // trim/toggle trailing whitespace (TrailingSpaces)
-    { "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+    { "keys": ["ctrl+shift+r"], "command": "delete_trailing_spaces" },
     { "keys": ["ctrl+shift+y"], "command": "toggle_trailing_spaces" }
 ]
