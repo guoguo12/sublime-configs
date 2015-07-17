@@ -23,3 +23,4 @@ set softtabstop=4
 set expandtab
 
 set splitright
+set nowrap
