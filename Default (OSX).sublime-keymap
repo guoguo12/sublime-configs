@@ -1,0 +1,10 @@
+[
+    // swap lines (like in NPP)
+    { "keys": ["shift+command+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["shift+command+down"], "command": "select_lines", "args": {"forward": true} },
+    // dumb tab cycles (like in NPP)
+    { "keys": ["ctrl+tab"], "command": "next_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+    // delete line
+    { "keys": ["command+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} }
+]
